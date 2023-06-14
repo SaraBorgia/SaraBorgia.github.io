@@ -83,8 +83,9 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #aac0e3;
+  background-color: #aac0e38a;
   color:#181e6b
+
 }
 
 th {
