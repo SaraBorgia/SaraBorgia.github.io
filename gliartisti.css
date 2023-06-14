@@ -1,0 +1,96 @@
+@font-face {
+    font-family: normal;
+    src: url();
+}
+body{
+    font-family: 'Arvo'; serif;
+    margin: 0px;
+}
+#menu {
+    display: center;
+    align-items: center;
+    justify-content:center;
+    
+}
+.elemento_menu{
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+body {
+        background-image: linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)),
+        url("https://www.artslife.com/history/wp-content/uploads/2017/12/history-espressionismo-01.jpg");
+        background-size: 100vw;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a43a5;
+    
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: ;
+  }
+  
+  .active {
+    background-color: #171290;
+  }
+
+  h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 55px;
+    font-family: "Times New Roman", Times, serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #1e0db3;
+  }
+  tr{
+    font-size: 18px;
+  }
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #aac0e3;
+  color:#181e6b
+}
+
+th {
+    font-size: 22px; 
+    color:#0b0855
+}
+td{
+    color:#0b0855
+}

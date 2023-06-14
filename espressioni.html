@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title> L'espressionismo </title>
+        <link rel="stylesheet" href="espressioni.css">
+</head>
+<body>
+
+<ul>
+  <li> <a  href= "home.html">Home</a></li>
+  <li><a href="movimento.html"> Il Movimento</a></li>
+  <li><a href="gliartisti.html">Gli Artisti</a></li>
+  <li><a class="active" href="espressioni.html">Le Espressioni</a></li>
+  <li><a  href="fauves.html">Fauves</a></li>
+  <li><a href="cinema.html">Il cinema </a></li>
+</ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<style>
+  
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0px;
+  font-family: Arial;
+  background-image: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.5)),
+    url("https://2.bp.blogspot.com/-Njbvygig8GA/ThCqP-uz8NI/AAAAAAAAAFM/vjAfNmdSTPU/s1600/f.jpg");
+    background-size: 100vw;
+  }
+
+.header {
+  text-align: center;
+  padding: 0px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+h1{
+    color: rgb(3, 3, 97); 
+   text-align: center;
+   font-size: 55px;
+   font-family: "Times New Roman", Times, serif;
+   list-style-type: none;
+    margin: 0px;
+    padding:10px;
+    background-color: #f3e709;
+
+}
+p{
+    color: rgb(3, 3, 97);
+    font-size: 23px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Le Espressioni </h1>
+  <p><strong>Alcune delle opere più significative dell'espressionismo tedesco.</strong></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://www.finestresullarte.info/rivista/immagini/2023/fn/ernst-ludwig-kirchner-scena-di-strada-berlinese.jpg" style="width:100%">
+    <img src="https://news.artnet.com/app/news-upload/2019/03/Francis-Bacon_Study-for-a-Head.jpg" style="width:100%">
+    <img src="https://www.artribune.com/wp-content/uploads/2018/12/Oskar-Kokoschka-Piet%C3%A0-1909.-Museum-der-Moderne-Salisburgo-%C2%A9-Fondation-Oskar-Kokoschka-%E2%80%93-Bildrecht-Vienna-2018.-Photo-Hubert-Auer.-Courtesy-Museum-der-Moderne-Salzburg-dettaglio.jpg" style="width:100%">
+    <img src="https://www.900letterario.it/wp-content/uploads/2018/01/Ensor-Lintrigo.jpg" style="width:100%">
+    <img src="data:image/jpeg;base64,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" style="width:100%">
+    <img src="https://arthive.net/res/media/img/oy1000/work/493/317760@2x.jpg" style="width:100%">
+    <img src="https://leganerd.com/wp-content/uploads/2012/02/Stormtruppe-geht-unter-Gas-Vor-Otto-Dix-1924._800-759x511.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://spuntisullarte.files.wordpress.com/2016/05/ernst-ludwig-kirchner-e28093-marzella-1910.jpg?w=776" style="width:100%">
+    <img src="https://restaurars.altervista.org/wp-content/uploads/2015/12/James-Ensor-456967.jpg" style="width:100%">
+    <img src="https://www.artyfactory.com/art_appreciation/great-artists/francis-bacon/francis-bacon/self_portrait.jpg" style="width:100%">
+    <img src="https://1890056479.rsc.cdn77.org/rivista/immagini/2017/702/edvard-munch-l-urlo.jpg" style="width:100%">
+    <img src="https://www.indiscreto.org/wp-content/uploads/2016/09/Egon_Schiele_-_Nude_Self-Portrait_Grimacing_-_Google_Art_Project.jpg" style="width:100%">
+    <img src="https://2.bp.blogspot.com/-eBNiquWpgQA/WxmRGefItTI/AAAAAAACA08/A0ImFK7ovNEtfbod_onqMSYgM78zGz4JACLcBGAs/s1600/Oskar%2BKokoschka%2B%25281886-1980%2529%2B%252829%2529.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://cdn.studenti.stbm.it/images/2017/02/22/ernst-ludwig-kirchner-marcella-orig.jpeg" style="width:100%">
+    <img src="https://1890056479.rsc.cdn77.org/rivista/immagini/2021/fn/otto-dix-invalidi-guerra-carte.jpg" style="width:100%">
+    <img src="https://claudiamolteniryan.files.wordpress.com/2020/01/1921-thematchseller-otto-dix.jpg?w=584" style="width:100%">
+    <img src="http://www.artericerca.com/Articoli%20Online/Nolde%201.jpg" style="width:100%">
+    <img src="https://www.arteworld.it/wp-content/uploads/2018/02/Pubert%C3%A0-Edvard-Munch-analisi.jpg" style="width:100%">
+    <img src="https://www.artribune.com/wp-content/uploads/2016/12/James-Ensor-Squelette-arr%C3%AAtant-masques.jpg" style="width:100%">
+    <img src="https://aboutart2015.files.wordpress.com/2016/08/emil_nolde__copertina.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://trehyus.com/wp-content/uploads/2019/07/Emil-Nolde.jpg" style="width:100%">
+    <img src="https://images2-wpc.corriereobjects.it/zfQpLZ_A942PMYoOkTzndgKWMg0=/fit-in/1280x630/style.corriere.it/assets/uploads/2015/03/portrait-of-gerda.jpeg" style="width:100%">
+    <img src="https://it.artsdot.com/ADC/Art-ImgScreen-4.nsf/O/A-8XYNEK/$FILE/Oskar_kokoschka-portrait_of_the_composer_anton_von_webern.Jpg" style="width:100%">
+    <img src="https://c8.alamy.com/zoomsit/9/c6e8fc9c4e8248fc99e383fc8b72514b/rkft46.jpg" style="width:100%">
+    <img src="https://m.media-amazon.com/images/I/71P6H-ozt+L._AC_SX425_.jpg" style="width:100%">
+    <img src="https://images.squarespace-cdn.com/content/v1/5e490e2ddd74ca6a812fbc9a/1640376467097-UCGSIARUMB661I3O97M6/copyrighttheestateoffrancisbacon.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+@font-face {
+    font-family: normal;
+    src: url();
+}
+body{
+    font-family: 'Arvo'; serif;
+    margin: 0px;
+}
+#menu {
+    display: center;
+    align-items: center;
+    justify-content:center;
+    
+}
+.elemento_menu{
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+h1{ 
+   text-align: center;
+   font-size: 55px;
+   font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)),
+    url("https://www.frammentirivista.it/wp-content/uploads/2017/11/caligari1.jpg");
+   background-size: 100vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c24a9;
+    
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #68107d;
+  }
+  h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #9d4ec8;
+     color: #ffffff;
+     list-style-type: none;
+     margin: 0;
+     padding: 10px;
+     overflow: hidden;
+ }
+
+ p{
+    font-size: 26px;
+    color: #330437;
+    font-family: "Arial", sans-serif;
+    text-align: justify;
+    margin: 40px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    width: 900px;
+    padding: 5px ;
+  }
+  .pommer{
+    text-align: center;
+    font-size: 22px;
+    c
+  }
+  h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+     color: #4f0a6e;
+     list-style-type: none;
+     margin: 30px;
+     padding: 10px;
+     overflow: hidden;
+     
+ }
+ /* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #400c4c;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: ;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  /* Number text (1/5 etc) */
+  .numbertext {
+    color: #c06dcb;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #650b77;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }

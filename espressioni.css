@@ -1,0 +1,54 @@
+@font-face {
+    font-family: normal;
+    src: url();
+}
+body{
+    font-family: 'Arvo'; serif;
+    margin: 0px;
+}
+#menu {
+    display: center;
+    align-items: center;
+    justify-content:center;
+    
+}
+.elemento_menu{
+    padding-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ded012;
+    
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(3, 3, 97);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: ;
+  }
+  
+  .active {
+    background-color: #c3b307;
+  }
+  
